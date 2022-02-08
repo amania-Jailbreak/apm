@@ -2,6 +2,11 @@
 Android Package Manager is designed to download and install apk as easily as apt using adb.
 The repository feature allows you to add multiple repositories to get more apks.
 
+Download repo.ini and place it in the same directory as apm.
+Please put the apm in the same folder as the platformTool (adb, etc.)
+It doesn't work properly.
+Run it from the command line
+
 ## How to create a repository
 Create a store.ini in your server
 [repo].
