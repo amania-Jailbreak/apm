@@ -28,14 +28,14 @@ Bootloader starts Bootloader after reboot (Fastboot is also available)
 Recovery will launch recovery (e.g. TWRP)
 
 
-##レポジトリの作成の仕方
+## レポジトリの作成の仕方
 サーバー内にstore.iniを作成します
 [repo]
 (アプリケーション名) = (apkへのダイレクトURL)
 
 これを参考に記述してください
 サーバーからはbotのアクセスを許可してください でないと403エラーが出ます
-##レポジトリのAPMへの追加の方法
+## レポジトリのAPMへの追加の方法
 apm add-repo (レポジトリのURL)
 と入力してください
 するとレポジトリの名前を求められますので入力してください
@@ -44,11 +44,11 @@ apm add-repo (レポジトリのURL)
 apm appsと入力し出力されたアプリ名を入力します
 
 apm install (アプリ名)
-##アンインストールの方法
+## アンインストールの方法
 apm uninstall (パッケージ名)
 でアンインストール
 ただしパッケージ名はcom.example.appのような形式になっております
-##Reboot Bootloader Recoveryについて
+## Reboot Bootloader Recoveryについて
 その名の通りRebootは再起動
 Bootloaderは再起動後にBootloaderを起動(Fastbootの場合もあります)
 Recoveryはリカバリーを起動します(TWRPなど)
